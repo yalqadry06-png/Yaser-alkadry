@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: whitesmoke;
+    color: black;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+header {
+    background: rgb(27, 42, 74);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.lg {
+    font-size: 38px;
+}
+
+nav {
+    background: white;
+    border-bottom: 4px solid rgb(197, 160, 89);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    padding: 12px;
+}
+
+nav a {
+    color: rgb(27, 42, 74);
+    text-decoration: none;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: rgb(27, 42, 74);
+    color: white;
+    border-radius: 4px;
+}
+
+main {
+    width: 92%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+.bx {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 2px 7px gainsboro;
+}
+
+footer {
+    background: rgb(27, 42, 74);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 30px;
+}
+
+.bt {
+    display: inline-block;
+    background: rgb(27, 42, 74);
+    color: white;
+    border: 0;
+    border-bottom: 4px solid rgb(197, 160, 89);
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.bt:hover {
+    color: white;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: firebrick;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+@media(max-width:600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 94%;
+    }
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: rgb(27, 42, 74);
+    color: white;
+}
+
+@media(max-width:600px) {
+    table {
+        font-size: 14px;
+    }
+
+}
+@font-face {
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fontawesome/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+.fa-solid {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.fa-circle-info::before {
+    content: "\f05a";
+}
+

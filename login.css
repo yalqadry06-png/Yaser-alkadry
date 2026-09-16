@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+
+header {
+    background: rgb(27, 42, 74);
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.lg {
+    font-size: 38px;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma;
+    background-color: rgb(245,247,250);
+    color: rgb(20,35,60);
+    direction: rtl;
+}
+
+.top, footer {
+    background-color: rgb(20,35,60);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(255,255,255);
+}
+
+nav a {
+    margin: 8px;
+    color: rgb(20,35,60);
+    text-decoration: none;
+}
+
+main {
+    padding: 40px;
+}
+
+#yas {
+    width: 350px;
+    max-width: 90%;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid rgb(190,150,70);
+    text-align: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(20,35,60);
+    color: white;
+    border: 0;
+}@font-face {
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fontawesome/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+.fa-solid {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.fa-right-to-bracket::before {
+    content: "\f2f6";
+}
+
