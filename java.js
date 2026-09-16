@@ -1,6 +1,6 @@
 $("#infobtn").click(function() {
 
-    $.get("file.html", function(data) {
+    $.get("info.html", function(data) {
 
         $("#info").html(data);
 
